@@ -5,48 +5,48 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡1-1.N x1, server: SG01-1-0JI17.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
-  - {name: 🇸🇬 新加坡2-1.N x1, server: SG02-1-8WDIU.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
-  - {name: 🇸🇬 新加坡3-1.N x1, server: SG03-1-EKAWX.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
-  - {name: 🇸🇬 新加坡5-1.N x1, server: SG05-1-M1H1R.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡1-1.N x1, server: SG01-1-0JI17.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡2-1.N x1, server: SG02-1-8WDIU.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡3-1.N x1, server: SG03-1-EKAWX.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡5-1.N x1, server: SG05-1-M1H1R.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
   - {name: 网易云解锁, server: music.desperadoj.com, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 🇸🇬 新加坡1-1.N x1
-      - 🇸🇬 新加坡2-1.N x1
-      - 🇸🇬 新加坡3-1.N x1
-      - 🇸🇬 新加坡5-1.N x1
+      - 新加坡1-1.N x1
+      - 新加坡2-1.N x1
+      - 新加坡3-1.N x1
+      - 新加坡5-1.N x1
   - name: Domestic
     type: select
     proxies:
       - DIRECT
       - Proxies
-      - 🇸🇬 新加坡1-1.N x1
-      - 🇸🇬 新加坡2-1.N x1
-      - 🇸🇬 新加坡3-1.N x1
-      - 🇸🇬 新加坡5-1.N x1
+      - 新加坡1-1.N x1
+      - 新加坡2-1.N x1
+      - 新加坡3-1.N x1
+      - 新加坡5-1.N x1
   - name: Special
     type: select
     proxies:
       - DIRECT
       - Domestic
       - Proxies
-      - 🇸🇬 新加坡1-1.N x1
-      - 🇸🇬 新加坡2-1.N x1
-      - 🇸🇬 新加坡3-1.N x1
-      - 🇸🇬 新加坡5-1.N x1
+      - 新加坡1-1.N x1
+      - 新加坡2-1.N x1
+      - 新加坡3-1.N x1
+      - 新加坡5-1.N x1
   - name: AsianTV
     type: select
     proxies:
       - DIRECT
       - Domestic
       - Proxies
-      - 🇸🇬 新加坡1-1.N x1
-      - 🇸🇬 新加坡2-1.N x1
-      - 🇸🇬 新加坡3-1.N x1
-      - 🇸🇬 新加坡5-1.N x1
+      - 新加坡1-1.N x1
+      - 新加坡2-1.N x1
+      - 新加坡3-1.N x1
+      - 新加坡5-1.N x1
   - name: Netease Music
     type: select
     proxies:
@@ -56,19 +56,19 @@ proxy-groups:
     type: select
     proxies:
       - Proxies
-      - 🇸🇬 新加坡1-1.N x1
-      - 🇸🇬 新加坡2-1.N x1
-      - 🇸🇬 新加坡3-1.N x1
-      - 🇸🇬 新加坡5-1.N x1
+      - 新加坡1-1.N x1
+      - 新加坡2-1.N x1
+      - 新加坡3-1.N x1
+      - 新加坡5-1.N x1
   - name: Others
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 🇸🇬 新加坡1-1.N x1
-      - 🇸🇬 新加坡2-1.N x1
-      - 🇸🇬 新加坡3-1.N x1
-      - 🇸🇬 新加坡5-1.N x1
+      - 新加坡1-1.N x1
+      - 新加坡2-1.N x1
+      - 新加坡3-1.N x1
+      - 新加坡5-1.N x1
 rules:
  - DOMAIN-SUFFIX,edgedatg.com,GlobalTV
  - DOMAIN-SUFFIX,go.com,GlobalTV
