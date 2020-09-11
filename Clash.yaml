@@ -50,6 +50,7 @@ proxy-groups:
   - name: Netease Music
     type: select
     proxies:
+      - DIRECT
       - 网易云解锁
   - name: GlobalTV
     type: select
