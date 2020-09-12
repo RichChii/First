@@ -6,27 +6,63 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 新加坡1-1.N x1, server: SG01-1-0JI17.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡1-2.N x2 江苏联通, server: JSLT-BVQIL.233cloud-node.com, port: 2334, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡1-3.N x2 江门移动, server: JMYD-WECNM.233cloud-node.com, port: 27070, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡1-4.N x2 Global, server: Global-YUQJX.233cloud-node.com, port: 37753, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
   - {name: 新加坡2-1.N x1, server: SG02-1-8WDIU.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡2-2.N x2 江苏联通, server: JSLT-BVQIL.233cloud-node.com, port: 23317, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡2-3.N x2 江门移动, server: JMYD-WECNM.233cloud-node.com, port: 27078, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡2-4.N x2 Global, server: Global-YUQJX.233cloud-node.com, port: 37754, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
   - {name: 新加坡3-1.N x1, server: SG03-1-EKAWX.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡3-2.N x2 江苏联通, server: JSLT-BVQIL.233cloud-node.com, port: 23321, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡3-3.N x2 江门移动, server: JMYD-WECNM.233cloud-node.com, port: 27082, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡3-4.N x2 Global, server: Global-YUQJX.233cloud-node.com, port: 37755, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
   - {name: 新加坡5-1.N x1, server: SG05-1-M1H1R.233cloud-node.com, port: 233, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡5-2.N x2 江苏联通, server: JSLT-BVQIL.233cloud-node.com, port: 23331, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡5-3.N x2 江门移动, server: JMYD-WECNM.233cloud-node.com, port: 27104, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
+  - {name: 新加坡5-4.N x2 Global, server: Global-YUQJX.233cloud-node.com, port: 37781, type: ssr, cipher: chacha20-ietf, password: n5SvoOw3bD3jL36a, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 8521:R43694m, obfs-param: baa9d8521.update.microsoft.com}
   - {name: 网易云解锁, server: music.desperadoj.com, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - 新加坡1-1.N x1
+      - 新加坡1-2.N x2 江苏联通
+      - 新加坡1-3.N x2 江门移动
+      - 新加坡1-4.N x2 Global
       - 新加坡2-1.N x1
+      - 新加坡2-2.N x2 江苏联通
+      - 新加坡2-3.N x2 江门移动
+      - 新加坡2-4.N x2 Global
       - 新加坡3-1.N x1
+      - 新加坡3-2.N x2 江苏联通
+      - 新加坡3-3.N x2 江门移动
+      - 新加坡3-4.N x2 Global
       - 新加坡5-1.N x1
+      - 新加坡5-2.N x2 江苏联通
+      - 新加坡5-3.N x2 江门移动
+      - 新加坡5-4.N x2 Global
   - name: Domestic
     type: select
     proxies:
       - DIRECT
       - Proxies
       - 新加坡1-1.N x1
+      - 新加坡1-2.N x2 江苏联通
+      - 新加坡1-3.N x2 江门移动
+      - 新加坡1-4.N x2 Global
       - 新加坡2-1.N x1
+      - 新加坡2-2.N x2 江苏联通
+      - 新加坡2-3.N x2 江门移动
+      - 新加坡2-4.N x2 Global
       - 新加坡3-1.N x1
+      - 新加坡3-2.N x2 江苏联通
+      - 新加坡3-3.N x2 江门移动
+      - 新加坡3-4.N x2 Global
       - 新加坡5-1.N x1
+      - 新加坡5-2.N x2 江苏联通
+      - 新加坡5-3.N x2 江门移动
+      - 新加坡5-4.N x2 Global
   - name: Special
     type: select
     proxies:
@@ -34,9 +70,21 @@ proxy-groups:
       - Domestic
       - Proxies
       - 新加坡1-1.N x1
+      - 新加坡1-2.N x2 江苏联通
+      - 新加坡1-3.N x2 江门移动
+      - 新加坡1-4.N x2 Global
       - 新加坡2-1.N x1
+      - 新加坡2-2.N x2 江苏联通
+      - 新加坡2-3.N x2 江门移动
+      - 新加坡2-4.N x2 Global
       - 新加坡3-1.N x1
+      - 新加坡3-2.N x2 江苏联通
+      - 新加坡3-3.N x2 江门移动
+      - 新加坡3-4.N x2 Global
       - 新加坡5-1.N x1
+      - 新加坡5-2.N x2 江苏联通
+      - 新加坡5-3.N x2 江门移动
+      - 新加坡5-4.N x2 Global
   - name: AsianTV
     type: select
     proxies:
@@ -44,9 +92,21 @@ proxy-groups:
       - Domestic
       - Proxies
       - 新加坡1-1.N x1
+      - 新加坡1-2.N x2 江苏联通
+      - 新加坡1-3.N x2 江门移动
+      - 新加坡1-4.N x2 Global
       - 新加坡2-1.N x1
+      - 新加坡2-2.N x2 江苏联通
+      - 新加坡2-3.N x2 江门移动
+      - 新加坡2-4.N x2 Global
       - 新加坡3-1.N x1
+      - 新加坡3-2.N x2 江苏联通
+      - 新加坡3-3.N x2 江门移动
+      - 新加坡3-4.N x2 Global
       - 新加坡5-1.N x1
+      - 新加坡5-2.N x2 江苏联通
+      - 新加坡5-3.N x2 江门移动
+      - 新加坡5-4.N x2 Global
   - name: Netease Music
     type: select
     proxies:
@@ -57,18 +117,42 @@ proxy-groups:
     proxies:
       - Proxies
       - 新加坡1-1.N x1
+      - 新加坡1-2.N x2 江苏联通
+      - 新加坡1-3.N x2 江门移动
+      - 新加坡1-4.N x2 Global
       - 新加坡2-1.N x1
+      - 新加坡2-2.N x2 江苏联通
+      - 新加坡2-3.N x2 江门移动
+      - 新加坡2-4.N x2 Global
       - 新加坡3-1.N x1
+      - 新加坡3-2.N x2 江苏联通
+      - 新加坡3-3.N x2 江门移动
+      - 新加坡3-4.N x2 Global
       - 新加坡5-1.N x1
+      - 新加坡5-2.N x2 江苏联通
+      - 新加坡5-3.N x2 江门移动
+      - 新加坡5-4.N x2 Global
   - name: Others
     type: select
     proxies:
       - Proxies
       - DIRECT
       - 新加坡1-1.N x1
+      - 新加坡1-2.N x2 江苏联通
+      - 新加坡1-3.N x2 江门移动
+      - 新加坡1-4.N x2 Global
       - 新加坡2-1.N x1
+      - 新加坡2-2.N x2 江苏联通
+      - 新加坡2-3.N x2 江门移动
+      - 新加坡2-4.N x2 Global
       - 新加坡3-1.N x1
+      - 新加坡3-2.N x2 江苏联通
+      - 新加坡3-3.N x2 江门移动
+      - 新加坡3-4.N x2 Global
       - 新加坡5-1.N x1
+      - 新加坡5-2.N x2 江苏联通
+      - 新加坡5-3.N x2 江门移动
+      - 新加坡5-4.N x2 Global
 rules:
  - DOMAIN-SUFFIX,edgedatg.com,GlobalTV
  - DOMAIN-SUFFIX,go.com,GlobalTV
